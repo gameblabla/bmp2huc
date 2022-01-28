@@ -7,7 +7,7 @@ SRC_C		= $(foreach dir, $(SRCDIR), $(wildcard $(dir)/*.c))
 OBJ_C		= $(notdir $(patsubst %.c, %.o, $(SRC_C)))
 OBJS		= $(OBJ_C)
 
-CFLAGS		= -O0 -g3 
+CFLAGS		= -O0 -g3 -Wall -Wextra
 
 LDFLAGS     = -nodefaultlibs -lc -lgcc -lm -lSDL -lSDL_image -Wl,--as-needed -Wl,--gc-sections -flto
 
