@@ -23,4 +23,6 @@ So for best image quality, 24bpp should be used instead.
 So 8bpp on the PC-FX is quite unusual because it expects a big endian framebuffer, even though the V810 is little endian.
 This means that the bytes are swapped and so it makes it extra annoying to work with.
 
-16bpp on the PC-FX is quite straight forward on the other hand, the difference being that it expects Y8U4V4 pixels instead of RGB ones.
+16bpp on the PC-FX is quite straight forward on the other hand, and is little endian.
+
+All color modes expect Y8U4V4 pixels instead of RGB ones, so this can be a little difficult to work with.
