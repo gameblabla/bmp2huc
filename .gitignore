@@ -1,0 +1,11 @@
+*.elf
+*.o
+*.bmp
+*.txt
+*.h
+*.pal
+*.PAL
+*.raw
+*.RAW
+*.BIN
+*.BMP
